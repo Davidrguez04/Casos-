@@ -36,20 +36,20 @@ function caso3(){
 var x = 5;
 var y = 0;
 
-if (true) {
-  let x=x+10;
-  let y=12;
-
+let (x = x+10, y = 12) 
+{
 document.write(x+y);
 }
 
 document.write(x + y);
 
+
 }
-//CASO 4
+//CASO 4.
+
 function caso4(){
  var a=5;
-//let(a = 6) 
+ var a = 6; 
 document.write(a);
 document.write(a);
 }
